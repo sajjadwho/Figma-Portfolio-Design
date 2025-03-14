@@ -4,6 +4,7 @@
     padding:0;
     margin:0;
 }
+/* home section starts here*/
 section{
     background-color: #222831;
 }
@@ -20,7 +21,8 @@ section{
     
 }
 .header{
-    padding:25px;
+    padding:40px;
+
     display:flex;
     justify-content: space-between;
     align-items:center;
@@ -34,5 +36,51 @@ body{
 .nav-links{
     display:flex;
     gap:40px;
-    padding-right: 35px;
+    padding-right:40px;
 }
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.hero .content{
+    display:flex;
+    padding-left:80px;
+    
+}
+.hero .content h1{
+    color:white;
+    font-size:70px;
+    font-weight: 660;
+    line-height: 75px;
+    padding-bottom:30px;
+}
+.hero .content .design{
+    color: #00ADB5;
+}
+.hero .content .action-button button{
+    background-color: #00ADB5;
+    color:white;
+    border:none;
+    cursor:pointer;
+    padding:8px 20px 8px 20px;
+    border-radius:24px;
+}
+.action-button{
+    display:flex;
+    gap:16px;
+}
+.hero .content .action-button .download{
+   background-color:#393E46;
+}
+.hero .content .doodle-image{
+    margin-top: 20px;
+    height:200px;
+}
+.hero .image img{
+    width:450px;
+    height:450px;
+    padding-top:120px;
+    padding-right:90px;
+}
+/*home section ends here*/
