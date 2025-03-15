@@ -84,3 +84,52 @@ body{
     padding-right:90px;
 }
 /*home section ends here*/
+/*about section starts here*/
+.about{
+    padding:80px;
+    padding-top:100px;
+    display:flex;
+}
+.about .left .image{
+    width:45px;
+    height:35px;
+    padding-bottom: 40px;
+}
+.about .left .about-me .title{
+    color:white;
+    font-size: 40px;
+    font-weight:625;
+}
+.about .left .about-me .me{
+    color: #00ADB5;
+}
+.about .left .about-me{
+    display:flex;
+    gap:20px;
+    padding-bottom:5px;
+}
+.about .left .about-me img{
+    width:45px;
+    height:55px;
+}
+.about .left .paragraph .description{
+    color:white;
+    font-weight: 170;
+    font-size: 15px;
+    width:45%;
+}
+.about .left .paragraph .read-more{
+    font-weight: 600;
+}
+.paragraph img{
+    padding-top:70px;
+    padding-left:105px;
+    height:100px;
+}
+.about .right img{
+    width:450px;
+    height:450px;
+    padding-top:75px;
+    padding-right:30px;
+}
+/* about section ends*/
