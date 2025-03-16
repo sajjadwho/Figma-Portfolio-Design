@@ -89,6 +89,7 @@ body{
     padding:80px;
     padding-top:100px;
     display:flex;
+    padding-bottom: 180px;
 }
 .about .left .image{
     width:45px;
@@ -133,3 +134,81 @@ body{
     padding-right:30px;
 }
 /* about section ends*/
+/* recent-work secton starts*/
+.recent-work{
+    padding:75px;
+    padding-top:120px;
+
+    background-image: url(images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.recent-work .title-button .title h1{
+    color:white;
+    font-size:40px;
+    padding-top:50px;
+    padding-bottom:10px;
+}
+.recent-work .title-button .title .work{
+    color:#00ADB5;
+}
+.buttons{
+    display:flex;
+    gap:15px;
+    padding-bottom:50px;
+}
+.buttons button{
+    background-color:#00ADB5;
+    color:white;
+    font-size: 11px;
+    font-weight: 900;
+    text-decoration: none;
+    padding:10px 20px 10px 20px;
+    border:0;
+    border-radius:17px;
+}
+.buttons .ui{
+    background-color:#393E46;
+}
+.buttons .ux{
+    background-color:#393E46;
+}
+.buttons .web{
+    background-color:#393E46;
+}
+.recent-work .image-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:50px;
+    padding-bottom:30px;
+    
+    
+}
+.image-container .contain-image .web{
+    width:250px;
+    height:150px;
+    margin-top:15px;
+    margin-bottom: 2px;
+    padding-left:55px;
+}
+.image-container .contain-image .laptop{
+    width:300px;
+    height:150px;
+    padding-top:15px;
+    padding-left:20px;
+}
+.image-container .contain-image .mobile{
+    width:300px;
+    height:165px;
+    padding-top:10px;
+    padding-left:35px;
+}
+.image-container .contain-image{
+    background-color: #393E46;
+    border-radius:20px ;
+    padding-top:30px;
+    padding-bottom:30px;
+    
+}
+/*recent-work section endss*/
