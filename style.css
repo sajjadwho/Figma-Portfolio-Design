@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+/* home section starts here*/
+section{
+    background-color: #222831;
+}
+.header .logo h2{  
+    color:white;
+    padding-left: 25px;
+
+}
+.header .nav-links a{
+    color:white;
+    text-decoration: none;
+    font-size:13px;
+    font-weight:200;
+    
+}
+.header{
+    padding:40px;
+
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+h2{
+    font-family: "Oswald", sans-serif;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.nav-links{
+    display:flex;
+    gap:40px;
+    padding-right:40px;
+}
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.hero .content{
+    display:flex;
+    padding-left:80px;
+    
+}
+.hero .content h1{
+    color:white;
+    font-size:70px;
+    font-weight: 660;
+    line-height: 75px;
+    padding-bottom:30px;
+}
+.hero .content .design{
+    color: #00ADB5;
+}
+.hero .content .action-button button{
+    background-color: #00ADB5;
+    color:white;
+    border:none;
+    cursor:pointer;
+    padding:8px 20px 8px 20px;
+    border-radius:24px;
+}
+.action-button{
+    display:flex;
+    gap:16px;
+}
+.hero .content .action-button .download{
+   background-color:#393E46;
+}
+.hero .content .doodle-image{
+    margin-top: 20px;
+    height:200px;
+}
+.hero .image img{
+    width:450px;
+    height:450px;
+    padding-top:120px;
+    padding-right:90px;
+}
+/*home section ends here*/
+/*about section starts here*/
+.about{
+    padding:80px;
+    padding-top:100px;
+    display:flex;
+}
+.about .left .image{
+    width:45px;
+    height:35px;
+    padding-bottom: 40px;
+}
+.about .left .about-me .title{
+    color:white;
+    font-size: 40px;
+    font-weight:625;
+}
+.about .left .about-me .me{
+    color: #00ADB5;
+}
+.about .left .about-me{
+    display:flex;
+    gap:20px;
+    padding-bottom:5px;
+}
+.about .left .about-me img{
+    width:45px;
+    height:55px;
+}
+.about .left .paragraph .description{
+    color:white;
+    font-weight: 170;
+    font-size: 15px;
+    width:45%;
+}
+.about .left .paragraph .read-more{
+    font-weight: 600;
+}
+.paragraph img{
+    padding-top:70px;
+    padding-left:105px;
+    height:100px;
+}
+.about .right img{
+    width:450px;
+    height:450px;
+    padding-top:75px;
+    padding-right:30px;
+}
+/* about section ends*/
