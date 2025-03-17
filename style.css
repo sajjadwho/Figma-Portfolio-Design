@@ -138,6 +138,7 @@ body{
 .recent-work{
     padding:75px;
     padding-top:120px;
+    padding-bottom:180px;
 
     background-image: url(images/background.png);
     background-position: center;
@@ -205,10 +206,121 @@ body{
     padding-left:35px;
 }
 .image-container .contain-image{
-    background-color: #393E46;
+    background-color:#393E46;
     border-radius:20px ;
     padding-top:30px;
     padding-bottom:30px;
     
 }
 /*recent-work section endss*/
+.contacts{
+    display:flex;
+    justify-content: space-between;
+}
+.contacts .left-side .title h1{
+    color:white;
+    font-size: 40px;
+    padding-left:75px;
+    padding-top:190px;
+}
+.contacts .left-side .title .mind{
+    color:#00ADB5;
+}
+.contacts .left-side .man-image .man{
+    width:290px;
+    height:220px;
+    padding-left:85px;
+}
+.contacts .right-side{
+    padding-top:40px;
+    padding-right: 150px;
+}
+.contacts .right-side .info {
+    color:white;
+    display:flex;
+    gap:40px;
+    
+}
+.contacts .right-side .info .name{
+    display:flex;
+    flex-direction: column;
+}
+.contacts .right-side .info .email{
+    display:flex;
+    flex-direction: column;
+}
+.contacts .right-side .message{
+    display:flex;
+    flex-direction: column;
+    color:white;
+}
+.contacts .right-side .messagebutton{
+    display:flex;
+    gap:6px;
+    text-align: center;
+    color:white;
+    background-color:#00ADB5;
+}
+.contacts .right-side .name input{
+    width:95%;
+    background-color:#393E46;
+    border:none;
+    padding:8px 6px;
+    border-radius:10px;
+    padding-left:10px;
+}
+.contacts .right-side .email input{
+    width:95%;
+    background-color:#393E46;
+    border:none;
+    padding:8px 6px;
+    border-radius:10px;
+    padding-left:15px;
+}
+.contacts .right-side .message textarea{
+    width:97%;
+    height:200px;
+    background-color:#393E46;
+    border:none;
+    
+    border-radius:8px;
+    padding:10px 13px;
+}
+.contacts .right-side .info .name label{
+    font-size: 12px;
+    padding-bottom:7px;
+    font-weight: 400;
+}
+.contacts .right-side .info .email label{
+    font-size: 12px;
+    padding-bottom:7px;
+    font-weight: 400;
+}
+.contacts .right-side label{
+    font-size: 12px;
+    padding-top:10px;
+    padding-bottom:5px;
+    font-weight: 400;
+}
+.contacts .right-side .message{
+    padding-bottom:13px;
+}
+.contacts .right-side .messagebutton{
+     border:none;
+     border-radius:20px;
+     font-weight: 600;
+     padding:4px 15px 4px 15px;
+     align-items: center;
+}
+.contacts .right-side .imgge{
+     height:70px;
+     padding-bottom:60px;
+}
+.contacts .mail{
+    padding-top:30px;
+    width:50px;
+    padding-left:300px;
+}
+/* contacts section ends here*/
+
+
