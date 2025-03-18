@@ -322,5 +322,80 @@ body{
     padding-left:300px;
 }
 /* contacts section ends here*/
+/* footer section starts*/
+.footer{
+    padding-left:500px;
+    padding-top:200px;
+}
+.footer .navigation{
+    display:flex;
+    gap:35px;
+    padding-bottom:30px;
+}
+.footer .navigation .home {
+    display:flex;
+    gap:8px;
+    align-items: center;
+}
+.footer .navigation .about-me{
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+.footer .navigation .contact{
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+.footer .navigation .home a{
+    color:white;
+    text-decoration:none;
+    font-size: 13px;
+    font-weight: 350;
+    padding-top:5px;
+}
+.footer .navigation .about-me a{
+    color:white;
+    text-decoration:none;
+    font-size: 13px;
+    font-weight: 350;
+    padding-top:5px;
+}
+.footer .navigation .contact a{
+    color:white;
+    text-decoration:none;
+    font-size: 13px;
+    font-weight: 350;
+    padding-top:5px;
+}
+.footer .navigation .home img{
+     width:19px;
+     height:19px;
+}
+.footer .navigation .about-me img{
+    width:19px;
+    height:19px;
+}
+.footer .navigation .contact img{
+    width:19px;
+    height:19px;
+}
+.footer .media{
+    display:flex;
+    gap:15px;
+    padding-left:65px;
+    padding-bottom:55px;
+}
+.footer .media img{
+    width:30px;
+    height:30px;
+}
+.footer h3{
+    color:white;
+    font-size:12px;
+    font-weight: 200;
+    padding-left:520px;
+    padding-bottom:50px;
+}
 
-
+/*footer section ends*/
